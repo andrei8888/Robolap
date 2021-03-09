@@ -1,0 +1,44 @@
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px 0px;
+    overflow: hidden;
+    background-color: rgb(163, 221, 255);
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+li {
+	float: left;
+	display: inline;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+
+li a:hover {
+  	background-color: rgb(81, 138, 170);
+}
+
+.active {
+  	background-color: rgb(53, 138, 190);
+}
+
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: 250px auto;
+    grid-gap: 10px;
+    padding: 10px 0px;
+  }
+
+.grid-drops{
+	display: grid;
+	grid-template-columns: auto;
+	grid-gap: 10px;
+	text-align: center;
+}

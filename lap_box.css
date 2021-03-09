@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+.box{
+    background-color:rgb(163, 221, 255);
+    margin: 15px 15px;
+    border-radius: .25em;
+    padding: 10px 10px;
+    
+}
+
+/*.box :hover{
+    background-color:rgb(138, 187, 216);
+    border: none;
+    margin: 15px 15px ;
+    
+}*/
+
+.grid_lap :hover .box{
+    background-color:rgb(157, 209, 240);    
+    margin: 14px 14px ;
+    border: 1px solid black;
+}
+
+.grid_lap{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px 10px;
+    border-radius: .25em;
+
+}

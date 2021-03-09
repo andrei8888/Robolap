@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Robolap</title>
+<link rel="stylesheet" href="back.css">
+</head>
+
+<style>
+    .center {
+        text-align: center;
+    }
+    .mdiv{
+        transition-timing-function: linear;
+        animation-name: example;
+        animation-duration: 2.5s;
+        animation-fill-mode: forwards;
+        animation-delay: 1s;
+        text-align: center;
+        width: 100%;
+    }
+    @keyframes example {
+        0% {opacity: 150%;}
+        100% {opacity: 0;}
+    }
+    img {
+        width: auto;
+        height: auto;
+    }
+</style>
+    
+<body>
+    <div class="bg">
+    <div class="mdiv"><img src="icons/robolap.png" ></div>
+    <script>
+            function Redirect() {
+                window.location = "front_page.php";
+            }
+            setTimeout('Redirect()', 2550);
+    </script>
+    </div>
+    </div>
+    </body>
+</body>
+</html>
